@@ -50,8 +50,20 @@ body {
 .header-mail{
     margin-left: 331px;
     margin-right: 50px;
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+
 }
 .header-phone{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+
 }
 .h-s{
     font-family: Raleway;
