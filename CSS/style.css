@@ -36,6 +36,10 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    padding-top: 32px;
+    height: 80px;
+    width: 1170px;
+    justify-content: flex-end;
 }
 .header-flex{
     display: flex;
@@ -44,6 +48,24 @@ body {
 
 .menu{
     display: inline-flex;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: flex-end; 
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu .list:not(:last-child) {
+	margin-right: 50px;
+}
+.menu-nav {
+	display: flex;
+	align-items: center;
 }
 .menu-item:not(:last-child){
     margin-right: 40px;
@@ -104,6 +126,8 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    margin-right: auto;
+	margin-left: auto;
 }
 
 .page-t{
@@ -118,6 +142,9 @@ body {
     background-color: var(--first-dark-bg);
     color: var(--main-title-text); 
     text-align: center
+}
+.container-first-section{
+
 }
 .section-title{
     font-family: Roboto;
