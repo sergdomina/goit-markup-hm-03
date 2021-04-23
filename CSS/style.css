@@ -58,6 +58,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--second-title);
 }
 .menu .list:not(:last-child) {
 	margin-right: 50px;
@@ -65,6 +73,9 @@ body {
 .menu-nav {
 	display: flex;
 	align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 .menu-item:not(:last-child){
     margin-right: 40px;
@@ -278,8 +289,6 @@ letter-spacing: 0.03em;
 
 color: var(--second-title);
 }
-
-
 .sixteengrey{
     ont-family: Roboto;
 font-style: normal;
@@ -345,6 +354,16 @@ color: var(--maint-body-text);
 .footer-logo:focus {
 	text-shadow: 0px 4px 4px var(--accent-color);
 }
+.footerlist {
+    list-style: none;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-right: auto;
+	margin-left: auto;
+}
+
 .section4{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -399,14 +418,115 @@ color: var(--accent-blue);
 }
 .f-mt{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
+/**Portfolio**/
+.container-portfolio{
+    width: 1170px;
+    height: 1360px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.portfolio-kind button {
+	padding-top: 6px;
+	padding-right: 22px;
+	padding-bottom: 6px;
+	padding-left: 22px;
+	border: transparent;
+	border-radius: 4px;
+
+	/* font-family: inherit; */
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+
+	cursor: pointer;
+	
+	color: var(--primary-title-color);
+	background-color: var(--secondary-bg-color);
+
+	border-radius: 4px;	
+}
+
+.portfolio-kind {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 34px;
+}
+
+.portfolio-kind li:not(:last-child) {
+	margin-right: 8px;
+}
+
+.portfolio-kind button:hover,
+.portfolio-kind button:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+	background-color: var(--accent-blue);
+	color: var(--main-title-text);
+}
+.portfolio-button {
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62 ;
+	letter-spacing: 0.06em;
+
+	border: transparent;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+
+	color: var(--primary-white-color);
+	padding-top: 6px;
+	padding-right: 22px;
+	padding-bottom: 6px;
+	padding-left: 22px;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	background: var(--accent-blue);
+
+}
+.portfolio-button:hover{
+    background-color: #757575;
+    align-content: center;
+}
+.portfolio-ticket {
+	overflow: hidden;
+	border-radius: 4px;
+}
+.margin-bottomkind{
+    margin-bottom: 30px;
+}
+.portfolio-ticket{
+        width: calc((100% - 60px) / 3);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+}
+.portfolio-ticket:nth-child(3n) {
+	margin-right: 0;
+}
+.portfolio-ticket:nth-last-child(-n + 3) {
+	margin-bottom: 0;
+}
+
+.portfolio-ticket:hover,
+.portfolio-ticket:focus-within {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .kind{
     font-family: Roboto;
@@ -415,9 +535,7 @@ color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #212121;
-    padding: 10px 20px;
-    display: inline-block;
+    color: var(--second-title);
     margin: 2px;
     border-radius: 4px;
 }
@@ -427,10 +545,6 @@ color: rgba(255, 255, 255, 0.6);
 .kind-vse{
     color: var(--second-white-bg);
     background-color: var(--accent-blue);
-    padding: 13px 30px;
-    margin: 2px;
-    border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .menu{
     list-style: none;

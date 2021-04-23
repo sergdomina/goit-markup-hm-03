@@ -18,79 +18,89 @@
 </head>
 <body>
     <!--Header-->
-    <header>
+    <header class="header-flex">
         <div class="container-header">
-            <nav>
-                <a class="h-s" href=""><span class="f-web">Web</span>Studio</a>
-                <ul class="menu list">
-                    <li><a class="h-m" href="./index.html">Студия</span></a></li>
-                    <li><a class="h-m" href="./portfolio.html"><span class="h-m-p">Портфолио</span></a></li>
-                    <li><a class="h-m" href="">Контакты</a></li>
+            <nav class="menu-nav">
+                <a class="header-link headerlogo" href=""><span class="f-web">Web</span>Studio</a>
+                <ul class="list">
+                    <li class="menu-item"><a class="link h-m" href="./index.html">Студия</a></li>
+                    <li class="menu-item"><a class="link h-m" href="./portfolio.html"><span class="h-m-p">Портфолио</span></a></li>
+                    <li class="menu-item"><a class="link h-m" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="list">
+            <ul class="menu">
                 <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
     <!--section-->
-    <section class="">
+    <section class="container-portfolio">
         <nav>
-            <ul class="menu li-align">
-                <li class="kind"><button class="kind-vse">Все</button></li>
-                <li class="kind"><button class="kind kind-bg-cl">Веб-сайты</button></li>
-                <li class="kind"><button class="kind kind-bg-cl">Приложения</button></li>
-                <li class="kind"><button class="kind kind-bg-cl">Дизайн</button></li>
-                <li class="kind"><button class="kind kind-bg-cl">Маркетинг</button></li>
+            <ul class="portfolio-kind menu li-align">
+                <li class="kind"><button type="button" class="portfolio-button">Все</button></li>
+                <li class="kind"><button type="button" class="portfolio-button">Веб-сайты</button></li>
+                <li class="kind"><button type="button" class="portfolio-button">Приложения</button></li>
+                <li class="kind"><button type="button" class="portfolio-button">Дизайн</button></li>
+                <li class="kind"><button type="button" class="portfolio-button">Маркетинг</button></li>
             </ul>
         </nav>
         <ul class="list li-align">
-            <li class="li-align">
-                <img src="./images/p1.jpg" width="370" height="294" alt="Технокряк">
-                <h3 class="h3s">Технокряк</h3>
-                <p class="sixteengrey">Веб-сайт</p>
+            <li class="portfolio-ticket li-align">
+                <a href="">
+                    <img src="./images/p1.jpg" width="370" height="294" alt="Технокряк">
+                    <h3 class="h3s">Технокряк</h3>
+                    <p class="sixteengrey">Веб-сайт</p>
+                </a>
             </li>
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p2.jpg" width="370" height="294" alt="Постер New Orlean vs Golden Star">
                 <h3 class="h3s">Постер New Orlean vs Golden Star</h3>
                 <p class="sixteengrey">Дизайн</p>
             </li>
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p3.jpg" width="370" height="294" alt="Ресторан Seafood">
                 <h3 class="h3s">Ресторан Seafood</h3>
                 <p class="sixteengrey">Приложение</p>
             </li>
         </ul>
         <ul class="list li-align">
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p4.jpg" width="370" height="294" alt="Проект Prime">
                 <h3 class="h3s">Проект Prime</h3>
                 <p class="sixteengrey">Маркетинг</p>
             </li>
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p5.jpg" width="370" height="294" alt="Проект Boxes">
                 <h3 class="h3s">Проект Boxes</h3>
                 <p class="sixteengrey">Приложение</p>
             </li>
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p6.jpg" width="370" height="294" alt="Inspiration has no Borders">
                 <h3 class="h3s">Inspiration has no Borders</h3>
                 <p class="sixteengrey" lang="en">Веб-сайт</p>
             </li>
         </ul>
         <ul class="list li-align">
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p7.jpg" width="370" height="294" alt="Издание Limited Edition">
                 <h3 class="h3s">Издание Limited Edition</h3>
                 <p class="sixteengrey">Дизайн</p>
             </li>
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p8.jpg" width="370" height="294" alt="Проект LAB">
                 <h3 class="h3s">Проект LAB</h3>
                 <p class="sixteengrey">Маркетинг</p>
             </li>
-            <li class="li-align">
+            <li class="portfolio-ticket li-align">
+                <a href=""></a>
                 <img src="./images/p9.jpg" width="370" height="294" alt="Growing Business">
                 <h3 class="h3s">Growing Business</h3>
                 <p class="sixteengrey" lang="en">Приложение</p>
@@ -98,17 +108,20 @@
         </ul>
     </section>
     <!--Footer-->
-    <footer class="f-s-b">
-                <a class="f-s" href=""><span class="f-web">Web</span>Studio</a>
-            <ul class="list">
-                <li><a class="map link" href="https://goo.gl/maps/AVRe5xS1wRytFqMS9" target="_blank"
-                    rel="noopener noreferrer">
-                                                        г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li><a class="f-mt" href="mail:info@example.com">info@example.com</a></li>
-                <li><a class="f-mt" href="tel:+380991111111">+38 099 111 11 11</a></li>
-            </ul>
+    <footer class="footer">
+        <div class="container footerflex">
+            <div class="footerinfo footerflex footerlink">
+                    <a class="f-s footerlogo" href=""><span class="f-web">Web</span>Studio</a>
+                <ul class="footerlist">
+                    <li><a class="link" href="https://goo.gl/maps/AVRe5xS1wRytFqMS9" target="_blank"
+                        rel="noopener noreferrer">
+                                                            г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
+                    <li><a class="link f-mt" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="link f-mt" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
