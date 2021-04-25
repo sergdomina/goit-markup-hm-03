@@ -467,7 +467,7 @@ color: var(--accent-blue);
 	display: flex;
 	justify-content: center;
 	margin-bottom: 34px;
-    padding left: 0px;
+    padding-left: 0px;
 }
 
 .portfolio-kind li:not(:last-child) {
@@ -527,6 +527,7 @@ color: var(--accent-blue);
 .text-left{
     text-align: left;
     margin-left: 24px;
+    margin-bottom: 20px;
 }
 .portfolio-ticket:hover,
 .portfolio-ticket:focus-within {
