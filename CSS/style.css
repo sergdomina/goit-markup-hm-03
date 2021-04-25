@@ -270,10 +270,7 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
-
-    
     letter-spacing: 0.06em;
-    
     color: var(--second-title);    
 }
 .h32{
@@ -290,19 +287,17 @@ letter-spacing: 0.03em;
 color: var(--second-title);
 }
 .sixteengrey{
-    ont-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--maint-body-text);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--maint-body-text);
 }
-
+.staff{
+}
 .second-section-text{
     font-family: Roboto;
     font-style: normal;
@@ -369,6 +364,7 @@ color: var(--maint-body-text);
     padding-bottom: 94px;
 }
 .section4-our-team-person{
+    height: 368px;
     margin-right: 30px;
     width: calc((100% - 30px * 4) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -462,6 +458,7 @@ color: var(--accent-blue);
 	display: flex;
 	justify-content: center;
 	margin-bottom: 34px;
+    padding left: 0px;
 }
 
 .portfolio-kind li:not(:last-child) {
@@ -518,7 +515,10 @@ color: var(--accent-blue);
 .portfolio-ticket:nth-last-child(-n + 3) {
 
 }
-
+.text-left{
+    text-align: left;
+    margin-left: 24px;
+}
 .portfolio-ticket:hover,
 .portfolio-ticket:focus-within {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
