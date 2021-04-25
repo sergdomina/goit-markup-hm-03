@@ -5,6 +5,7 @@
     --accent-blue: #2196F3;
     --alt: #494949;
     --kind-bg: #F5F4FA;
+    --border: #ECECEC; 
 
 
     --first-dark-bg: #2F303A;
@@ -39,6 +40,10 @@ body {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    border-bottom: 1px solid #ececec;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 .header-flex{
     display: flex;
@@ -73,8 +78,6 @@ body {
 .menu-nav {
 	display: flex;
 	align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 }
 .menu-item:not(:last-child){
@@ -285,6 +288,8 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--second-title);
+margin-top: 0px;
+margin-bottom: 10px;
 }
 .sixteengrey{
     font-family: Roboto;
@@ -295,8 +300,12 @@ color: var(--second-title);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--maint-body-text);
+    margin-top: 0px;
+margin-bottom: 0px;
 }
 .staff{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .second-section-text{
     font-family: Roboto;
