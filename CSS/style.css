@@ -424,14 +424,8 @@ color: var(--accent-blue);
 }
 /**Portfolio**/
 .container-portfolio{
-    width: 1170px;
-    height: 1360px;
-	padding-right: 15px;
-	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-    margin-top: 94px;
-    margin-bottom: 94px;
 }
 .portfolio-kind button {
 	padding-top: 6px;
