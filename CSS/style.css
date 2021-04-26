@@ -498,7 +498,6 @@ color: var(--accent-blue);
 }
 .portfolio-ticket {
 	overflow: hidden;
-	border-radius: 4px;
 }
 .borderbox{
     padding-left: 24px;
