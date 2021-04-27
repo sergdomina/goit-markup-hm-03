@@ -180,6 +180,9 @@ body {
     background-color: #757575;
     align-content: center;
 }
+.header-conntact:not(:last-child){
+    margin-bottom: 9px;
+}
 .hero-title {	
 	margin-right: auto;
 	margin-left: auto;
@@ -259,6 +262,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title);
+}
+.imgwork{
+    display: block;|
+    max-width: 100%;
 }
 .h3for2section{
     margin-top: 0px;
@@ -371,7 +378,6 @@ margin-bottom: 10px;
 	margin-left: auto;
 }
 .section4-our-team-person{
-    height: 368px;
     width: calc((100% - 30px * 3) / 4);
     border-radius: 0px 0px 4px 4px;
     background: var(--main-title-text);
@@ -519,7 +525,7 @@ color: var(--accent-blue);
 	margin-right: 0;
 }
 .portfolio-ticket:nth-last-child(-n + 3) {
-
+    margin-bottom: 0;
 }
 .text-left{
     text-align: left;
