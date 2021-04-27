@@ -89,8 +89,6 @@ body {
 .mail-phone:not(:last-child){
     margin-right: 40px;
 }
-.header-mail{
-}
 .headerlogo{
     margin-right: 93px;
     display: inline-block;
