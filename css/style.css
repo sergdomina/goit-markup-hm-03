@@ -77,10 +77,7 @@ body {
 
     color: var(--second-title);
 }
-.menu 
-.list:not(:last-child){
-	margin-right: 50px;
-}
+
 .menu-nav {
 	display: flex;
 	align-items: center;
@@ -89,8 +86,10 @@ body {
 .menu-item:not(:last-child){
     margin-right: 40px;
 }
+.mail-phone:not(:last-child){
+    margin-right: 40px;
+}
 .header-mail{
-    margin-right: 50px;
 }
 .headerlogo{
     margin-right: 93px;
